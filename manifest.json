@@ -1,0 +1,11 @@
+{
+	"name" : "Tinder Glasses", 
+	"version" : "1.0", 
+	"description" : "Chrome extension to unblur Tinder Gold pictures",
+	"manifest_version" : 2,
+	"background": {
+		"scripts": ["background.js"], 
+		"persistent": false
+	},
+	"permissions": ["activeTab", "contextMenus"]
+}
